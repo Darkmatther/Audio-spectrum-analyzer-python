@@ -20,12 +20,12 @@ By default is is 1024 (should be a power of 2)<br>
 - **`_time`** : the list of time steps associated with each spectrum measurement (in seconds)<br>
 - **`_freq`** : the list of frequencies in the spectrum (in Hz)<br>
 <br>
-Notes:<br>
+Notes:</br>
 `_spectrum` shape = (len(_time), len(_freq))<br>
 `len(_freq) = _CHUNK` (the FFT algorithm returns a spectrum with `_CHUNK` frequencies)<br>
 `_spectrum[i]` is the ith measurement of the audio spectrum, corresponding to the audio chunk ending at time = `_time[i]`<br>
 `_spectrum[i][j]` is the amplitude of the spectrum for frequency `_freq[j]` at time `_time[i]`<br>
-</br>
+<br>
 The audio spectrum of a file can be very useful when applied to music projects, and/or as a preprocessing step for machine learning/deep learning applications
 
 ## Example with test audio file
