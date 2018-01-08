@@ -29,7 +29,7 @@ _spectrum[i][j] is the amplitude of the spectrum for frequency _freq[j] at time 
 The audio spectrum of a file can be very useful when applied to music projects, and/or as a preprocessing step for machine learning/deep learning applications
 
 ## Example with test audio file
-The *showSpectrum(self, sec)* method can be used to plot the audio spectrum at time *sec* (in decibels for more intuitive visualization). Here is an example with an audio test file at t = 25s :
+The `showSpectrum(self, sec)` method can be used to plot the audio spectrum at time *sec* (in decibels for more intuitive visualization). Here is an example with an audio test file at t = 25s :
 ![Audio spectrum - example](https://user-images.githubusercontent.com/25090342/34655930-26b1ec96-f412-11e7-8732-98b0218a0768.png "Audio spectrum - example")
 
 ## Useful links
