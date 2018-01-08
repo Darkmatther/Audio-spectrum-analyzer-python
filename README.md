@@ -26,8 +26,7 @@ _spectrum[i][j] is the amplitude of the spectrum for frequency _freq[j] at time 
 The audio spectrum of a file can be very useful when applied to music projects, and/or as a preprocessing step for machine learning/deep learning applications
 
 ## Example with test audio file
-https://user-images.githubusercontent.com/25090342/34655930-26b1ec96-f412-11e7-8732-98b0218a0768.png
-
+![Audio spectrum - example](https://user-images.githubusercontent.com/25090342/34655930-26b1ec96-f412-11e7-8732-98b0218a0768.png "Audio spectrum - example")
 
 ## Useful links
 http://claude.lahache.free.fr/lenumerique/analyse-spectrale-par-fft.pdf<br>
