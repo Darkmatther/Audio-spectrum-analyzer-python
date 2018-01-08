@@ -34,5 +34,5 @@ The *showSpectrum(self, sec)* method can be used to plot the audio spectrum at t
 ## Useful links
 http://claude.lahache.free.fr/lenumerique/analyse-spectrale-par-fft.pdf<br>
 https://www.unilim.fr/pages_perso/jean.debord/math/fourier/fft.htm<br>
-https://docs.scipy.org/doc/scipy/reference/generated/scipy.fftpack.fft.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.fftpack.fft.html<br>
 https://github.com/markjay4k/Audio-Spectrum-Analyzer-in-Python/blob/master/audio_spectrum.py
