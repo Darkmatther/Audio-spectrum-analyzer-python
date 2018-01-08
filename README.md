@@ -7,7 +7,7 @@ This python program takes an audio file as an input and returns an AudioSpectrum
 
 Note: the audio file is first converted into .wav format using *FFMPEG* library so that I can use the *wave* python library to access the audio data and read it chunk by chunk (1 chunk <-> 1 spectrum measurement)
 
-## AudioSpectrum object
+## AudioSpectrum class
 The spectrum of the audio file is stored in an AudioSpectrum objet, which contains several attributes :
 <br>
 - _input : the input audio file in its original format<br>
