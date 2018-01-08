@@ -8,13 +8,13 @@ Note: the audio file is first converted into .wav format using FFMPEG library so
 ## AudioSpectrum object
 The spectrum of the audio file is stored in an AudioSpectrum objet, which also contains other attributes :
 <br>
-_input : the input audio file in its original format<br>
-_CHUNK : the number of audio waveform measurements that are used for FFT calculation. By default is is 1024 (should be a power of 2)<br>
-_RATE : the original sampling rate of the input audio file (i.e. number of audio waveform measurements per second, often 44100 Hz)
+- _input : the input audio file in its original format<br>
+- _CHUNK : the number of audio waveform measurements that are used for FFT calculation. By default is is 1024 (should be a power of 2)<br>
+- _RATE : the original sampling rate of the input audio file (i.e. number of audio waveform measurements per second, often 44100 Hz)
 <br><br>
-_spectrum : the frequency spectrum of the audio file as a 2D numpy array<br>
-_time : the list of times associated with each spectrum measurement (in seconds)<br>
-_freq : the list of frequencies in the spectrum (in Hz)<br>
+- _spectrum : the frequency spectrum of the audio file as a 2D numpy array<br>
+- _time : the list of times associated with each spectrum measurement (in seconds)<br>
+- _freq : the list of frequencies in the spectrum (in Hz)<br>
 <br>
 Note: 
 _spectrum.shape = (len(_time), len(_freq))
