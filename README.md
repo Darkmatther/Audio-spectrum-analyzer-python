@@ -22,6 +22,8 @@ By default is is 1024 (should be a power of 2)<br>
 <br>
 Notes:
 <br>
+- **`_freq`** : the list of frequencies in the spectrum (in Hz)<br>
+
 - `_spectrum`<br>
 - shape = (len(_time), len(_freq))<br>
 `len(_freq) = _CHUNK` (the FFT algorithm returns a spectrum with `_CHUNK` frequencies)<br>
