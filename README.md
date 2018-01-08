@@ -21,7 +21,7 @@ By default is is 1024 (should be a power of 2)<br>
 Note:<br>
 _spectrum.shape = (len(_time), len(_freq))<br>
 _spectrum[i] is the ith measurement of the audio spectrum, corresponding to time _time[i]<br>
-_spectrum[i][j] is the amplitude of the spectrum for frequency _freq[j] in the ith measurement of the spectrum<br>
+_spectrum[i][j] is the amplitude of the spectrum for frequency _freq[j] at time _time[i]<br>
 <br>
 The audio spectrum of a file can be very useful when applied to music projects, and/or as a preprocessing step for machine learning/deep learning applications
 
