@@ -1,5 +1,7 @@
 # Audio spectrum analyzer in python
 
+![Audio spectrum - example](https://user-images.githubusercontent.com/25090342/34655930-26b1ec96-f412-11e7-8732-98b0218a0768.png "Audio spectrum - example")
+
 ## Description
 This python program takes an audio input file as an input and returns an AudioSpectrum object that consists of the frequency spectrum of the audio at different times, in easy-to-manipulate numpy arrays.<br>
 
