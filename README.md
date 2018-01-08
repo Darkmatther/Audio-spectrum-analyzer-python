@@ -19,8 +19,8 @@ By default is is 1024 (should be a power of 2)<br>
 - **`_spectrum`** : the frequency spectrum of the audio file as a 2D numpy array<br>
 - **`_time`** : the list of time steps associated with each spectrum measurement (in seconds)<br>
 - **`_freq`** : the list of frequencies in the spectrum (in Hz)<br>
-<br><br>
-Note:<br>
+<br>
+Notes:<br>
 `_spectrum` shape = (len(_time), len(_freq))<br>
 `len(_freq) = _CHUNK` (the FFT algorithm returns a spectrum with `_CHUNK` frequencies)<br>
 `_spectrum[i]` is the ith measurement of the audio spectrum, corresponding to the audio chunk ending at time = `_time[i]`<br>
