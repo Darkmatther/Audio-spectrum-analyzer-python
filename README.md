@@ -17,8 +17,8 @@ By default is is 1024 (should be a power of 2)<br>
 (i.e. number of audio waveform measurements per second, often 44100 Hz)
 <br><br>
 - **`_spectrum`** : the frequency spectrum of the audio file as a 2D numpy array<br>
-- `**_time**` : the list of time steps associated with each spectrum measurement (in seconds)<br>
-- `**_freq**` : the list of frequencies in the spectrum (in Hz)<br>
+- **`_time`** : the list of time steps associated with each spectrum measurement (in seconds)<br>
+- **`_freq`** : the list of frequencies in the spectrum (in Hz)<br>
 <br>
 Notes:<br>
 `_spectrum.shape = (len(_time), len(_freq))`<br>
