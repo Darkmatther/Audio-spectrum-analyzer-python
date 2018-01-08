@@ -22,7 +22,7 @@ By default is is 1024 (should be a power of 2)<br>
 <br>
 Notes:<br>
 _spectrum.shape = (len(_time), len(_freq))<br>
-len(_freq) = _CHUNK (if the spectrum is calculated on 1024 waveform measurements then the FFT returns a spectrum with 1024 frequencies)<br>
+len(_freq) = _CHUNK (the FFT algorithm returns a spectrum with _CHUNK frequencies)<br>
 _spectrum[i] is the ith measurement of the audio spectrum, corresponding to the audio chunk ending at time = _time[i]<br>
 _spectrum[i][j] is the amplitude of the spectrum for frequency _freq[j] at time _time[i]<br>
 <br>
